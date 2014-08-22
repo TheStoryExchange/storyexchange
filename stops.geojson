@@ -7,7 +7,8 @@
         "id": 1,
         "title": "Lonely House on the Hill",
         "text": "Quite the food at his place.  For those looking for the compost, find it in basement, far back left.",
-        "photo": "http://media.tumblr.com/dd0f48cfff498f22e356a4af6b332315/tumblr_inline_n3qo2jJPsN1ro2f0s.jpg"
+        "photo": "http://media.tumblr.com/dd0f48cfff498f22e356a4af6b332315/tumblr_inline_n3qo2jJPsN1ro2f0s.jpg",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
