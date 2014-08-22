@@ -15,6 +15,36 @@
           44.03874176144929
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "title": "North West of Tulsa",
+        "text": "Beautiful weather, unfriendly people"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1416015625,
+          36.73888412439431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "title": "The Always Happy Diner",
+        "text": "Ask for Gladys "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.73828125,
+          30.221101852485987
+        ]
+      }
     }
   ]
 }
