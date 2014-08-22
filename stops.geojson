@@ -6,7 +6,8 @@
       "properties": {
         "id": 1,
         "title": "Lonely House on the Hill",
-        "text": "Quite the food at his place.  For those looking for the compost, find it in basement, far back left."
+        "text": "Quite the food at his place.  For those looking for the compost, find it in basement, far back left.",
+        "photo": "http://media.tumblr.com/dd0f48cfff498f22e356a4af6b332315/tumblr_inline_n3qo2jJPsN1ro2f0s.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +22,8 @@
       "properties": {
         "id": 2,
         "title": "North West of Tulsa",
-        "text": "Beautiful weather, unfriendly people"
+        "text": "Beautiful weather, unfriendly people",
+        "photo": "http://media.tumblr.com/ea2d6cf323df54b8ad6b6dd1b2fedd2f/tumblr_inline_n8cl7oGyca1ro2f0s.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +38,8 @@
       "properties": {
         "id": 3,
         "title": "The Always Happy Diner",
-        "text": "Ask for Gladys "
+        "text": "Ask for Gladys ",
+        "photo": "http://media.tumblr.com/5e0403080dddfdfc646cbdc802716066/tumblr_inline_n32qlhzyVG1ro2f0s.jpg"
       },
       "geometry": {
         "type": "Point",
