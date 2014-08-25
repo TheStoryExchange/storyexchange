@@ -1,11 +1,13 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
 var map = L.mapbox.map('map', 'james-lane-conkling.5630f970')
-    .setView([41, -95.0], 5);
+    .setView([41, -95.0], 4);
 
 // an awkward hack so users don't have to define styles in the geojson file
 // see simple style spec: https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0
 var geojson = omnivore.geojson('stops.geojson')
     .on('ready', function(){
+        var latLngs = [];
+
         this.eachLayer(function(marker){
             var p = marker.toGeoJSON().properties;
 
@@ -27,9 +29,15 @@ var geojson = omnivore.geojson('stops.geojson')
                     "<img src=" + p.photo + " />" +
                 "</div>";
             marker.bindPopup(content);
+
+            // collect latlon pairs
+            latLngs.push(marker.getLatLng());
         });
+
+        var route = L.polyline(latLngs,{
+            color: '#323232',
+            weight: 2
+        }).addTo(map);
     })
     .addTo(map);
-
-
 
