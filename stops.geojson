@@ -49,6 +49,22 @@
           30.221101852485987
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "title": "Pownal, Maine",
+        "text": "Sleeping Porch",
+        "photo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.11268615722656,
+          43.89517103523595
+        ]
+      }
     }
   ]
 }
