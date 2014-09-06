@@ -56,7 +56,8 @@
         "id": 4,
         "title": "Pownal, Maine",
         "text": "Sleeping Porch",
-        "photo": ""
+        "photo": "",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
