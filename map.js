@@ -1,6 +1,10 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
-var map = L.mapbox.map('map', 'james-lane-conkling.5630f970')
-    .setView([41, -95.0], 4);
+var map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
+  center: [41, -95.0],
+  zoom: 5,
+  minZoom: 5,
+  maxBounds: [[23.2,-130.03],[51.78,-56.86]]
+  })
 
 // an awkward hack so users don't have to define styles in the geojson file
 // see simple style spec: https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0
