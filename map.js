@@ -8,14 +8,14 @@ var map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
 
 // an awkward hack so users don't have to define styles in the geojson file
 // see simple style spec: https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0
-var geojson = omnivore.geojson('stops.geojson')
+var stops = omnivore.geojson('stops.geojson')
     .on('ready', function(){
         var latLngs = [];
 
         this.eachLayer(function(marker){
             var p = marker.toGeoJSON().properties;
 
-            if(marker.toGeoJSON().properties.status === 'visited'){
+            if(p.status === 'visited'){
                 marker.setIcon(L.mapbox.marker.icon({
                     'marker-color': '#323232'
                 }));
@@ -40,8 +40,25 @@ var geojson = omnivore.geojson('stops.geojson')
 
         var route = L.polyline(latLngs,{
             color: '#323232',
-            weight: 2
+            weight: 1.4
         }).addTo(map);
+    })
+    .addTo(map);
+
+var mail = omnivore.geojson('mail.geojson')
+    .on('ready', function(){
+      this.eachLayer(function(marker){
+        var p = marker.toGeoJSON().properties;
+
+        marker.setIcon(L.mapbox.marker.icon({
+                    'marker-color': '#ab161a',
+                    'marker-size': 'small'
+                }));
+        // set popup
+        var content = "<div class='message'>" + p.message + "</div>";
+        marker.bindPopup(content);
+
+      });
     })
     .addTo(map);
 
