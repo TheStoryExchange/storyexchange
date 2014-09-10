@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "message": "you guys remind me of when I was young" }, "geometry": { "type": "Point", "coordinates": [ -64.75586465537404, 32.314760470010512 ] } },
+{ "type": "Feature", "properties": { "id": 2, "message": "bonjor, eh?" }, "geometry": { "type": "Point", "coordinates": [ -65.053828810295585, 46.997771881977727 ] } }
+]
+}
