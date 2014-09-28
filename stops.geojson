@@ -8,8 +8,7 @@
         "title": "Vinalhaven, ME",
         "text": "Rockaway",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/53ff6fe2e4b0af9b1b67f5fe/1409249282408/14717352534_b985558daa_o.jpg?format=750w",
-        "status": "visited",
-        "Date": ""
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -84,6 +83,60 @@
         "coordinates": [
           -75.70850372314453,
           41.49134934062665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "title": "Detroit, MI",
+        "text": "Teach/Trade with Sean",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541eeb32e4b0bb0e99183f6e/1411312441707/1411137220.702474.IMG_4369.JPG?format=500w",
+        "status": "visited",
+        "photo 2": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.067626953125,
+          42.382894009614056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "title": "Pontiac, MI",
+        "text": "Family roots",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/54205e72e4b0381477a36bca/1411407488389/photo%202%281%29.JPG?format=500w",
+        "status": "visited",
+        "photo 2": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.29216003417967,
+          42.64254588758824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "title": "Bloomington, IN",
+        "text": "Muse and Foot Roots",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/541f7932e4b09cb1a8ed70a9/1411348794594/P9081779.JPG?format=750w",
+        "status": "visited",
+        "photo 2": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/54208767e4b09a2902bd2200/1411417984716/1411409572.647266.IMG_4743.JPG?format=750w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5338134765625,
+          39.16999702413473
         ]
       }
     }
