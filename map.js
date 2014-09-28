@@ -45,20 +45,20 @@ var stops = omnivore.geojson('stops.geojson')
     })
     .addTo(map);
 
-var mail = omnivore.geojson('mail.geojson')
-    .on('ready', function(){
-      this.eachLayer(function(marker){
-        var p = marker.toGeoJSON().properties;
+// var mail = omnivore.geojson('mail.geojson')
+//     .on('ready', function(){
+//       this.eachLayer(function(marker){
+//         var p = marker.toGeoJSON().properties;
 
-        marker.setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#ab161a',
-                    'marker-size': 'small'
-                }));
-        // set popup
-        var content = "<div class='message'>" + p.message + "</div>";
-        marker.bindPopup(content);
+//         marker.setIcon(L.mapbox.marker.icon({
+//                     'marker-color': '#ab161a',
+//                     'marker-size': 'small'
+//                 }));
+//         // set popup
+//         var content = "<div class='message'>" + p.message + "</div>";
+//         marker.bindPopup(content);
 
-      });
-    })
-    .addTo(map);
+//       });
+//     })
+//     .addTo(map);
 
