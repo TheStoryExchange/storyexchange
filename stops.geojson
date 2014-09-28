@@ -139,6 +139,71 @@
           39.16999702413473
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "title": "Grinnell, IA",
+        "text": "",
+        "status": "visited",
+        "photo 2": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.72186279296875,
+          41.74672584176937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "title": "Denver, CO",
+        "status": "visited",
+        "photo 2": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9850082397461,
+          39.7399303660792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "title": "Outside of Rapid City, SD",
+        "text": "Badlands",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.54089355468749,
+          43.73538317799622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "title": "Billings, MT",
+        "text": "Rest stop",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.96240234375,
+          45.874712248904764
+        ]
+      }
     }
   ]
 }
