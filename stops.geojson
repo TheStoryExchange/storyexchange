@@ -5,9 +5,9 @@
       "type": "Feature",
       "properties": {
         "id": 1,
-        "title": "Lonely House on the Hill",
-        "text": "Quite the food at his place.  For those looking for the compost, find it in basement, far back left.",
-        "photo": "http://media.tumblr.com/dd0f48cfff498f22e356a4af6b332315/tumblr_inline_n3qo2jJPsN1ro2f0s.jpg",
+        "title": "Vinalhaven, ME",
+        "text": "Rockaway",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/53ff6fe2e4b0af9b1b67f5fe/1409249282408/14717352534_b985558daa_o.jpg?format=750w",
         "status": "visited"
       },
       "geometry": {
@@ -22,41 +22,9 @@
       "type": "Feature",
       "properties": {
         "id": 2,
-        "title": "North West of Tulsa",
-        "text": "Beautiful weather, unfriendly people",
-        "photo": "http://media.tumblr.com/ea2d6cf323df54b8ad6b6dd1b2fedd2f/tumblr_inline_n8cl7oGyca1ro2f0s.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.1416015625,
-          36.73888412439431
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 3,
-        "title": "The Always Happy Diner",
-        "text": "Ask for Gladys ",
-        "photo": "http://media.tumblr.com/5e0403080dddfdfc646cbdc802716066/tumblr_inline_n32qlhzyVG1ro2f0s.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.73828125,
-          30.221101852485987
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 4,
-        "title": "Pownal, Maine",
+        "title": "Pownal, ME",
         "text": "Sleeping Porch",
-        "photo": "",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/5407969ce4b020fb2b13ced2/1409783472379/1409781417.408398.IMG_3959.JPG?format=750w",
         "status": "visited"
       },
       "geometry": {
@@ -64,6 +32,57 @@
         "coordinates": [
           -70.11268615722656,
           43.89517103523595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "title": "Lexington, MA",
+        "text": "Moon Hill",
+        "status": "visited",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2247085571289,
+          42.44854143612912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "title": "Fishkill, NY",
+        "text": "Fishkill Correctional Center",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6e43e4b0ea465888d2f7/1411083868097/1411080953.317477.IMG_4038.JPG?format=750w",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90228271484375,
+          41.537366035503794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "title": "Clarks Summit, PA",
+        "text": "Regrouping",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6a98e4b09194f763ca9e/1411082919204/photo%202%281%29.JPG?format=750w",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.70850372314453,
+          41.49134934062665
         ]
       }
     }
