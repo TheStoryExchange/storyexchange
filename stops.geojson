@@ -8,7 +8,8 @@
         "title": "Vinalhaven, ME",
         "text": "Rockaway",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/53ff6fe2e4b0af9b1b67f5fe/1409249282408/14717352534_b985558daa_o.jpg?format=750w",
-        "status": "visited"
+        "status": "visited",
+        "Date": ""
       },
       "geometry": {
         "type": "Point",
