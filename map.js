@@ -17,11 +17,11 @@ var stops = omnivore.geojson('stops.geojson')
 
             if(p.status === 'visited'){
                 marker.setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#323232'
+                    'marker-color': '#ff33cc'
                 }));
             }else{
                 marker.setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#AA6035'
+                    'marker-color': '#99ff00'
                 }));
             }
 
