@@ -279,7 +279,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 18,
+        "id": 19,
         "title": "San Francisco, CA"
       },
       "geometry": {
@@ -293,7 +293,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 19,
+        "id": 20,
         "title": "Yosemite"
       },
       "geometry": {
@@ -301,6 +301,20 @@
         "coordinates": [
           -119.55322265624999,
           37.844494798834596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "title": "Salt Lake City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9287109375,
+          40.84706035607122
         ]
       }
     }
