@@ -26,13 +26,20 @@ var stops = omnivore.geojson('stops.geojson')
             }
 
             // set popup
-            var content = "<h3 class='title'>" + p.title + "</h3>" +
-                "<div class='desc'>" + p.text + "</div>" +
-                "<div>" +
-                    // "<div class='photo'><span class='arrow'></span>click</div>" +
-                    "<img src=" + p.photo + " />" +
-                "</div>";
-            marker.bindPopup(content);
+             content = ["<h3 class='title'>", [p.title], "</h3>",
+                "<div class='desc'>", p.text, "</div>"];
+            if(p.photo){
+              var i = 1;
+              console.log(i);
+              i++;
+              content = content.concat(["<div>",
+                // "<div class='photo'><span class='arrow'></span>click</div>" +
+                    "<a href=", p.photo, " target='_blank'>",
+                    "<img src=", p.photo, " />",
+                    "</a>",
+                    "</div>"]);
+            }
+            marker.bindPopup(content.join(''));
 
             // collect latlon pairs
             latLngs.push(marker.getLatLng());
