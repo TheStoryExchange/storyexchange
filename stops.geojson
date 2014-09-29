@@ -9,7 +9,7 @@
         "text": "Rockaway",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/53ff6fe2e4b0af9b1b67f5fe/1409249282408/14717352534_b985558daa_o.jpg?format=750w",
         "status": "visited",
-        "Date": "August 22"
+        "Date": "August 18 - 26"
       },
       "geometry": {
         "type": "Point",
@@ -27,7 +27,8 @@
         "text": "Sleeping Porch",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/5407969ce4b020fb2b13ced2/1409783472379/1409781417.408398.IMG_3959.JPG?format=750w",
         "status": "visited",
-        "Date": "August 24"
+        "Date": "August 26 - 27",
+        "photo 2": ""
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +45,8 @@
         "title": "Lexington, MA",
         "text": "Moon Hill",
         "status": "visited",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w"
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w",
+        "Date": ""
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +146,7 @@
       "properties": {
         "id": 9,
         "title": "Grinnell, IA",
-        "text": "",
+        "text": "Seeds and grains",
         "status": "visited",
         "photo 2": ""
       },
@@ -160,15 +162,15 @@
       "type": "Feature",
       "properties": {
         "id": 10,
-        "title": "Denver, CO",
+        "title": "Twin Cities, MN",
         "status": "visited",
-        "photo 2": ""
+        "text": "Briz and Lady"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.9850082397461,
-          39.7399303660792
+          -93.0926513671875,
+          44.95410867661361
         ]
       }
     },
@@ -176,15 +178,15 @@
       "type": "Feature",
       "properties": {
         "id": 11,
-        "title": "Outside of Rapid City, SD",
-        "text": "Badlands",
-        "status": "visited"
+        "title": "Denver, CO",
+        "status": "visited",
+        "text": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.54089355468749,
-          43.73538317799622
+          -104.98432159423828,
+          39.74045836300404
         ]
       }
     },
@@ -192,15 +194,15 @@
       "type": "Feature",
       "properties": {
         "id": 12,
-        "title": "Billings, MT",
-        "text": "Rest stop",
-        "status": "visited"
+        "title": "Badlands, SD",
+        "status": "visited",
+        "text": "Prairie"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.96240234375,
-          45.874712248904764
+          -102.56973266601562,
+          43.69667260550321
         ]
       }
     },
@@ -208,16 +210,283 @@
       "type": "Feature",
       "properties": {
         "id": 13,
-        "title": "Red Lodge, MT",
-        "text": "Gray mountains",
-        "photo": "",
-        "status": "visited"
+        "title": "Black Hills, SD",
+        "status": "visited",
+        "text": "Camping on broken treaties"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.30572509765625,
-          45.188812246819055
+          -103.42803955078125,
+          43.90778718292443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "title": "Salt Lake City, UT",
+        "text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90811157226562,
+          40.772221877329024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "title": "Yellowstone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3631591796875,
+          44.49258696288604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "title": "Missoula, MT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.99826049804688,
+          46.87615215594502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "title": "Vancouver, Canada",
+        "text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1182861328125,
+          49.262427623047905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "title": "Seattle, WA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29980468749999,
+          47.68018294648414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "title": "Portland, OR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.76123046875,
+          45.644768217751924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "title": "San Francisco, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.431640625,
+          37.84015683604136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "title": "Yosemite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5147705078125,
+          37.85750715625203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "title": "Las Vegas, NV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.13671875,
+          36.2265501474709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "title": "Los Angeles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.32275390624999,
+          34.10725639663118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "title": "San Diego, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18017578125,
+          32.7872745269555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "title": "Arizona?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.42333984375,
+          34.30714385628804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "title": "New Mexico?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.99609375,
+          34.379712580462204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "title": "Austin, TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.80029296875,
+          30.35391637229704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "title": "New Orleans, LA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.087890625,
+          30.012030680358613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "title": "Nashville, TN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.77001953125,
+          36.19109202182454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "title": "Raleigh, NC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.662109375,
+          35.817813158696616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "title": "Washington, DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0526123046875,
+          38.90813299596705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "title": "New York City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98193359375,
+          40.79717741518769
         ]
       }
     }
