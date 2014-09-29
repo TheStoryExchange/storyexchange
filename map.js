@@ -3,7 +3,7 @@ var map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
   center: [41, -95.0],
   zoom: 5,
   minZoom: 5,
-  maxBounds: [[23.2,-130.03],[51.78,-56.86]]
+  maxBounds: [[20.00,-140.00],[62.00,-54.00]]
   })
 
 // an awkward hack so users don't have to define styles in the geojson file
