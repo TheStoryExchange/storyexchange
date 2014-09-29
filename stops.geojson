@@ -26,7 +26,8 @@
         "title": "Pownal, ME",
         "text": "Sleeping Porch",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/5407969ce4b020fb2b13ced2/1409783472379/1409781417.408398.IMG_3959.JPG?format=750w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "August 24"
       },
       "geometry": {
         "type": "Point",
