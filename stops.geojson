@@ -46,7 +46,8 @@
         "text": "Moon Hill",
         "status": "visited",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w",
-        "Date": ""
+        "Date": "August 27",
+        "photo 2": ""
       },
       "geometry": {
         "type": "Point",
@@ -63,7 +64,8 @@
         "title": "Fishkill, NY",
         "text": "Fishkill Correctional Center",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6e43e4b0ea465888d2f7/1411083868097/1411080953.317477.IMG_4038.JPG?format=750w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "August 27"
       },
       "geometry": {
         "type": "Point",
@@ -80,7 +82,8 @@
         "title": "Clarks Summit, PA",
         "text": "Regrouping",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6a98e4b09194f763ca9e/1411082919204/photo%202%281%29.JPG?format=750w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "August 27 - 30"
       },
       "geometry": {
         "type": "Point",
@@ -97,7 +100,8 @@
         "title": "Detroit, MI",
         "text": "Teach/Trade with Sean",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541eeb32e4b0bb0e99183f6e/1411312441707/1411137220.702474.IMG_4369.JPG?format=500w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "August 31 - September 3"
       },
       "geometry": {
         "type": "Point",
@@ -114,7 +118,8 @@
         "title": "Pontiac, MI",
         "text": "Family roots",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/54205e72e4b0381477a36bca/1411407488389/photo%202%281%29.JPG?format=500w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "September 3 - 9"
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +136,8 @@
         "title": "Bloomington, IN",
         "text": "Muse and Foot Roots",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/541f7932e4b09cb1a8ed70a9/1411348794594/P9081779.JPG?format=750w",
-        "status": "visited"
+        "status": "visited",
+        "Date": "September 3 - 9"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +154,8 @@
         "title": "Grinnell, IA",
         "text": "Seeds and grains",
         "status": "visited",
-        "photo 2": ""
+        "photo 2": "",
+        "Date": "September 9 - 10"
       },
       "geometry": {
         "type": "Point",
@@ -164,7 +171,9 @@
         "id": 10,
         "title": "Twin Cities, MN",
         "status": "visited",
-        "text": "Briz and Lady"
+        "text": "Briz and Lady",
+        "Date": "September 10 - 16",
+        "photo 2": ""
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +189,8 @@
         "id": 11,
         "title": "Denver, CO",
         "status": "visited",
-        "text": ""
+        "text": "",
+        "Date": "September 17 - 23"
       },
       "geometry": {
         "type": "Point",
@@ -196,7 +206,8 @@
         "id": 12,
         "title": "Badlands, SD",
         "status": "visited",
-        "text": "Prairie"
+        "text": "Prairie",
+        "Date": "September 23 - 27"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +223,8 @@
         "id": 13,
         "title": "Black Hills, SD",
         "status": "visited",
-        "text": "Camping on broken treaties"
+        "text": "Camping on broken treaties",
+        "Date": "September 27 - 28"
       },
       "geometry": {
         "type": "Point",
@@ -227,7 +239,8 @@
       "properties": {
         "id": 14,
         "title": "Salt Lake City, UT",
-        "text": ""
+        "text": "",
+        "Date": "September 29 - 30"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +254,8 @@
       "type": "Feature",
       "properties": {
         "id": 15,
-        "title": "Yellowstone"
+        "title": "Yellowstone",
+        "Date": "October 1 - 2"
       },
       "geometry": {
         "type": "Point",
@@ -255,7 +269,8 @@
       "type": "Feature",
       "properties": {
         "id": 16,
-        "title": "Missoula, MT"
+        "title": "Missoula, MT",
+        "Date": "Early October"
       },
       "geometry": {
         "type": "Point",
@@ -270,7 +285,8 @@
       "properties": {
         "id": 17,
         "title": "Vancouver, Canada",
-        "text": ""
+        "text": "",
+        "Date": "Early October"
       },
       "geometry": {
         "type": "Point",
@@ -284,7 +300,8 @@
       "type": "Feature",
       "properties": {
         "id": 18,
-        "title": "Seattle, WA"
+        "title": "Seattle, WA",
+        "Date": "Early October"
       },
       "geometry": {
         "type": "Point",
@@ -298,7 +315,8 @@
       "type": "Feature",
       "properties": {
         "id": 19,
-        "title": "Portland, OR"
+        "title": "Portland, OR",
+        "Date": "Mid-October"
       },
       "geometry": {
         "type": "Point",
@@ -312,7 +330,8 @@
       "type": "Feature",
       "properties": {
         "id": 20,
-        "title": "San Francisco, CA"
+        "title": "San Francisco, CA",
+        "Date": "Late October/Early November"
       },
       "geometry": {
         "type": "Point",
@@ -326,7 +345,8 @@
       "type": "Feature",
       "properties": {
         "id": 21,
-        "title": "Yosemite"
+        "title": "Yosemite",
+        "Date": "Early November"
       },
       "geometry": {
         "type": "Point",
@@ -340,7 +360,8 @@
       "type": "Feature",
       "properties": {
         "id": 22,
-        "title": "Las Vegas, NV"
+        "title": "Las Vegas, NV",
+        "Date": "Early November"
       },
       "geometry": {
         "type": "Point",
@@ -354,7 +375,8 @@
       "type": "Feature",
       "properties": {
         "id": 23,
-        "title": "Los Angeles, CA"
+        "title": "Los Angeles, CA",
+        "Date": "Mid-November"
       },
       "geometry": {
         "type": "Point",
@@ -368,7 +390,8 @@
       "type": "Feature",
       "properties": {
         "id": 24,
-        "title": "San Diego, CA"
+        "title": "San Diego, CA",
+        "Date": "Mid-November"
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +405,8 @@
       "type": "Feature",
       "properties": {
         "id": 25,
-        "title": "Arizona?"
+        "title": "Arizona?",
+        "Date": "Mid-November"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +420,8 @@
       "type": "Feature",
       "properties": {
         "id": 26,
-        "title": "New Mexico?"
+        "title": "New Mexico?",
+        "Date": "Mid-November"
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +435,8 @@
       "type": "Feature",
       "properties": {
         "id": 27,
-        "title": "Austin, TX"
+        "title": "Austin, TX",
+        "Date": "Late November"
       },
       "geometry": {
         "type": "Point",
@@ -424,7 +450,8 @@
       "type": "Feature",
       "properties": {
         "id": 28,
-        "title": "New Orleans, LA"
+        "title": "New Orleans, LA",
+        "Date": "Late November"
       },
       "geometry": {
         "type": "Point",
@@ -438,7 +465,8 @@
       "type": "Feature",
       "properties": {
         "id": 29,
-        "title": "Nashville, TN"
+        "title": "Nashville, TN",
+        "Date": "Early December"
       },
       "geometry": {
         "type": "Point",
@@ -452,7 +480,8 @@
       "type": "Feature",
       "properties": {
         "id": 30,
-        "title": "Raleigh, NC"
+        "title": "Raleigh, NC",
+        "Date": "Mid-December"
       },
       "geometry": {
         "type": "Point",
@@ -466,7 +495,8 @@
       "type": "Feature",
       "properties": {
         "id": 31,
-        "title": "Washington, DC"
+        "title": "Washington, DC",
+        "Date": "Mid-December"
       },
       "geometry": {
         "type": "Point",
@@ -480,7 +510,8 @@
       "type": "Feature",
       "properties": {
         "id": 32,
-        "title": "New York City"
+        "title": "New York City",
+        "Date": "Mid-December"
       },
       "geometry": {
         "type": "Point",
