@@ -3,7 +3,7 @@ var sexchange = (function(L){
     global: function(){
       this.initMap();
       se.stops = omnivore.geojson('stops.geojson').on('ready', this.addStops).addTo(se.map);
-      se.mail = omnivore.geojson('mail.geojson').on('ready', this.addMail);
+      // se.mail = omnivore.geojson('mail.geojson').on('ready', this.addMail).addTo(se.map);
     },
     initMap: function(){
       L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
@@ -14,44 +14,17 @@ var sexchange = (function(L){
         maxBounds: [[20.00,-140.00],[62.00,-54.00]]
       });
     },
-    addStops: function(that){
-      console.log(this);
-      console.log(that);
+    addStops: function(){
       var routePoints = [],
           routePointsIndex = []
 
       this.eachLayer(function(marker){
-        var p = marker.toGeoJSON().properties;
+        se.colorMarker(marker);
+        se.addPopup(marker);
 
-        if(p.status === 'visited'){
-          marker.setIcon(L.mapbox.marker.icon({
-              'marker-color': '#ff33cc'
-          }));
-        }else{
-          marker.setIcon(L.mapbox.marker.icon({
-              'marker-color': '#99ff00'
-          }));
-        }
-
-        // set popup
-        content = ["<h3 class='title'>", [p.title], "</h3>",
-            "<div class='desc'>", p.text, "</div>"];
-        if(p.photo){
-          var i = 1;
-          i++;
-          content = content.concat([
-            "<div>",
-            // "<div class='photo'><span class='arrow'></span>click</div>" +
-              "<a href=", p.photo, " target='_blank'>",
-                "<img src=", p.photo, " />",
-              "</a>",
-            "</div>"]);
-        }
-        marker.bindPopup(content.join(''));
-
-        // collect latlon pairs sorted by marker id
-        // routePointIndex stores a sorted list of all marker ids
-        // findInsertPosition adds a marker id to routePointIndex and returns the index of the added element
+        // collect latlon pairs sorted by marker id:
+          // routePointIndex stores a sorted list of all marker ids
+          // findInsertPosition adds a marker id to routePointIndex and returns the index of the added element
         newRoutePointIndex = findInsertPosition(p.id, routePointsIndex);
         routePoints.splice(newRoutePointIndex, 0, marker.getLatLng());
 
@@ -86,6 +59,35 @@ var sexchange = (function(L){
         marker.bindPopup(content);
 
       });
+    },
+    colorMarker: function(){
+      var p = marker.toGeoJSON().properties;
+
+      if(p.status === 'visited'){
+        marker.setIcon(L.mapbox.marker.icon({
+            'marker-color': '#ff33cc'
+        }));
+      }else{
+        marker.setIcon(L.mapbox.marker.icon({
+            'marker-color': '#99ff00'
+        }));
+      }
+    },
+    addPopup: function(){
+      content = ["<h3 class='title'>", [p.title], "</h3>",
+          "<div class='desc'>", p.text, "</div>"];
+      if(p.photo){
+        var i = 1;
+        i++;
+        content = content.concat([
+          "<div>",
+          // "<div class='photo'><span class='arrow'></span>click</div>" +
+            "<a href=", p.photo, " target='_blank'>",
+              "<img src=", p.photo, " />",
+            "</a>",
+          "</div>"]);
+      }
+      marker.bindPopup(content.join(''));
     }
   }
   return se;
