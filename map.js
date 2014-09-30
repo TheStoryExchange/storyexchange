@@ -10,7 +10,9 @@ var sexchange = (function(L){
   var stops = omnivore.geojson('stops.geojson')
     .on('ready', function(){
       var routePoints = [],
-          routePointsIndex = []
+          routePointsIndex = [],
+          futureRoutePoints = [],
+          futureRoutePointsIndex = [];
 
       this.eachLayer(function(marker){
         var p = marker.toGeoJSON().properties;
@@ -44,8 +46,13 @@ var sexchange = (function(L){
         // collect latlon pairs sorted by marker id
         // routePointIndex stores a sorted list of all marker ids
         // findInsertPosition adds a marker id to routePointIndex and returns the index of the added element
-        newRoutePointIndex = findInsertPosition(p.id, routePointsIndex);
-        routePoints.splice(newRoutePointIndex, 0, marker.getLatLng());
+        if(p.status === 'visited'){
+          newRoutePointIndex = findInsertPosition(p.id, routePointsIndex);
+          routePoints.splice(newRoutePointIndex, 0, marker.getLatLng());
+        }else{
+          newRoutePointIndex = findInsertPosition(p.id, futureRoutePointsIndex);
+          futureRoutePoints.splice(newRoutePointIndex, 0, marker.getLatLng());
+        }
 
         function findInsertPosition(newElement, array){
           for(var i=0;i<array.length;i++){
@@ -63,6 +70,14 @@ var sexchange = (function(L){
       var route = L.polyline(routePoints,{
         color: '#323232',
         weight: 1.4
+      }).addTo(map);
+
+      // add last of routePoints to beginning of futureRoute
+      futureRoutePoints.splice(0,0,routePoints[routePoints.length -1]);
+      var futureRoute = L.polyline(futureRoutePoints,{
+        color: '#323232',
+        weight: 1.4,
+        dashArray: '2,4'
       }).addTo(map);
     })
     .addTo(map);
