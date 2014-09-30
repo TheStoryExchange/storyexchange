@@ -4,6 +4,7 @@ var sexchange = (function(L){
       this.initMap();
       se.stops = omnivore.geojson('stops.geojson').on('ready', this.addStops).addTo(se.map);
       // se.mail = omnivore.geojson('mail.geojson').on('ready', this.addMail).addTo(se.map);
+      // se.stops.on('click',se.centerOnClick);
     },
     initMap: function(){
       L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
@@ -24,6 +25,7 @@ var sexchange = (function(L){
         var p = marker.toGeoJSON().properties;
         se.colorMarker(marker);
         se.addPopup(marker);
+        marker.on('click', se.centerOnClick);
 
         // collect latlon pairs sorted by marker id:
           // routePointIndex stores a sorted list of all marker ids
@@ -105,6 +107,10 @@ var sexchange = (function(L){
           "</div>"]);
       }
       marker.bindPopup(content.join(''));
+    },
+    centerOnClick: function(){
+      var latLng = this.getLatLng();
+      se.map.setView(latLng);
     }
   }
   return se;
