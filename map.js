@@ -1,14 +1,22 @@
 var sexchange = (function(L){
-  L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
-  var map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
-    center: [41, -95.0],
-    zoom: 5,
-    minZoom: 5,
-    maxBounds: [[20.00,-140.00],[62.00,-54.00]]
-    })
-
-  var stops = omnivore.geojson('stops.geojson')
-    .on('ready', function(){
+  var se = {
+    global: function(){
+      this.initMap();
+      se.stops = omnivore.geojson('stops.geojson').on('ready', this.addStops).addTo(se.map);
+      se.mail = omnivore.geojson('mail.geojson').on('ready', this.addMail);
+    },
+    initMap: function(){
+      L.mapbox.accessToken = 'pk.eyJ1IjoiamFtZXMtbGFuZS1jb25rbGluZyIsImEiOiJ3RHBOc1BZIn0.edCFqVis7qgHPRgdq0WYsA';
+      se.map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
+        center: [41, -95.0],
+        zoom: 5,
+        minZoom: 5,
+        maxBounds: [[20.00,-140.00],[62.00,-54.00]]
+      });
+    },
+    addStops: function(that){
+      console.log(this);
+      console.log(that);
       var routePoints = [],
           routePointsIndex = []
 
@@ -63,25 +71,24 @@ var sexchange = (function(L){
       var route = L.polyline(routePoints,{
         color: '#323232',
         weight: 1.4
-      }).addTo(map);
-    })
-    .addTo(map);
+      }).addTo(se.map);
+    },
+    addMail: function(){
+      this.eachLayer(function(marker){
+        var p = marker.toGeoJSON().properties;
 
-  // var mail = omnivore.geojson('mail.geojson')
-  //     .on('ready', function(){
-  //       this.eachLayer(function(marker){
-  //         var p = marker.toGeoJSON().properties;
+        marker.setIcon(L.mapbox.marker.icon({
+                    'marker-color': '#ab161a',
+                    'marker-size': 'small'
+                }));
+        // set popup
+        var content = "<div class='message'>" + p.message + "</div>";
+        marker.bindPopup(content);
 
-  //         marker.setIcon(L.mapbox.marker.icon({
-  //                     'marker-color': '#ab161a',
-  //                     'marker-size': 'small'
-  //                 }));
-  //         // set popup
-  //         var content = "<div class='message'>" + p.message + "</div>";
-  //         marker.bindPopup(content);
-
-  //       });
-  //     })
-  //     .addTo(map);
-
+      });
+    }
+  }
+  return se;
 })(L);
+
+sexchange.global();
