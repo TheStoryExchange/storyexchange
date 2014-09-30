@@ -6,11 +6,10 @@ var map = L.mapbox.map('map', 'james-lane-conkling.5630f970', {
   maxBounds: [[20.00,-140.00],[62.00,-54.00]]
   })
 
-// an awkward hack so users don't have to define styles in the geojson file
-// see simple style spec: https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0
 var stops = omnivore.geojson('stops.geojson')
     .on('ready', function(){
-        var latLngs = [];
+        var routePoints = [],
+            routePointsIndex = []
 
         this.eachLayer(function(marker){
             var p = marker.toGeoJSON().properties;
@@ -30,22 +29,37 @@ var stops = omnivore.geojson('stops.geojson')
                 "<div class='desc'>", p.text, "</div>"];
             if(p.photo){
               var i = 1;
-              console.log(i);
               i++;
-              content = content.concat(["<div>",
+              content = content.concat([
+                "<div>",
                 // "<div class='photo'><span class='arrow'></span>click</div>" +
-                    "<a href=", p.photo, " target='_blank'>",
+                  "<a href=", p.photo, " target='_blank'>",
                     "<img src=", p.photo, " />",
-                    "</a>",
-                    "</div>"]);
+                  "</a>",
+                "</div>"]);
             }
-            marker.bindPopup(content.join(''));
+            marker.bindPopup(content.join());
 
-            // collect latlon pairs
-            latLngs.push(marker.getLatLng());
+            // collect latlon pairs sorted by marker id
+            // routePointIndex stores a sorted list of all marker ids
+            // findInsertPosition adds a marker id to routePointIndex and returns the index of the added element
+            newRoutePointIndex = findInsertPosition(p.id, routePointsIndex);
+            routePoints.splice(newRoutePointIndex, 0, marker.getLatLng());
+
+            function findInsertPosition(newElement, array){
+              for(var i=0;i<array.length;i++){
+                if(newElement < array[i]){
+                  array.splice(i,0,newElement);
+                  return i;
+                }
+              }
+              // if array is empty or newElement is larger than array[-1]
+              array.push(newElement);
+              return array.length - 1;
+            }
         });
 
-        var route = L.polyline(latLngs,{
+        var route = L.polyline(routePoints,{
             color: '#323232',
             weight: 1.4
         }).addTo(map);
