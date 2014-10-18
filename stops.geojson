@@ -175,7 +175,7 @@
         "text": "Briz and Lady",
         "Date": "September 10 - 16",
         "photo 2": "",
-        "photo": ""
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ab9be4b048c8309e6519/1413589916086/Minneapolis.jpg?format=500w"
       },
       "geometry": {
         "type": "Point",
@@ -191,8 +191,9 @@
         "id": 11,
         "title": "Denver, CO",
         "status": "visited",
-        "text": "",
-        "Date": "September 17 - 23"
+        "text": "Red Rockets",
+        "Date": "September 17 - 23",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ad45e4b048c8309e67fd/1413590361472/Denver.JPG?format=750w"
       },
       "geometry": {
         "type": "Point",
@@ -209,7 +210,8 @@
         "title": "Badlands, SD",
         "status": "visited",
         "text": "Lunar prairie",
-        "Date": "September 23 - 27"
+        "Date": "September 23 - 27",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ab2de4b06e8b47dbca91/1413589819011/photo%20(1).PNG?format=500w"
       },
       "geometry": {
         "type": "Point",
@@ -227,7 +229,7 @@
         "status": "visited",
         "text": "Camping on broken treaties",
         "Date": "September 27 - 28",
-        "photo": ""
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441aba0e4b048c8309e6529/1413589920797/Black%20Hills.jpg?format=750w"
       },
       "geometry": {
         "type": "Point",
@@ -243,7 +245,7 @@
         "id": 14,
         "title": "Salt Lake City, UT",
         "text": "Zion Co-operative Mercantile Institution",
-        "Date": "September 29 - 30",
+        "Date": "September 29 - October 5",
         "photo": "https://mail.google.com/mail/u/1/?ui=2&ik=6e732595b0&view=fimg&th=1492073022e3c3ec&attid=0.1.1&disp=emb&attbid=ANGjdJ8dgKmBEj7mzugHgZoW71pyFAGez2hroRKxnCpmNrT1vs_2QnEjwYXXkyk45cwzwT46XRpWwRe3XBbR8OP4wYKC90ggyIzCC_ZgRpFwOX_w_pkBhob4KhVFv5M&sz=-w1600-h1000&ats=1413588655883&rm=1492073022e3c3ec&zw&atsh=1",
         "status": "visited"
       },
@@ -260,9 +262,9 @@
       "properties": {
         "id": 15,
         "title": "Yellowstone",
-        "Date": "October 1 - 2",
+        "Date": "October 6 - 9",
         "text": "Characteristics of grizzly and black bears",
-        "photo": "",
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ae2be4b0e6f12d4b9b81/1413590579805/Yellowstone.JPG?format=500w",
         "status": "visited"
       },
       "geometry": {
@@ -270,6 +272,198 @@
         "coordinates": [
           -110.3631591796875,
           44.49258696288604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "title": "NorCal",
+        "text": "California might be the best state",
+        "photo": "",
+        "status": "",
+        "Date": "October 9 - "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.45336914062499,
+          39.457402514270804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "title": "San Francisco, CA",
+        "text": "",
+        "photo": "",
+        "status": "",
+        "Date": "First week of November"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4755859375,
+          37.85750715625203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "title": "Portland, OR",
+        "text": "",
+        "photo": "",
+        "status": "",
+        "Date": "Mid-November",
+        "photo 2": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.73925781250001,
+          45.62940492064501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mid-November",
+        "id": 19,
+        "title": "Seattle, WA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23388671874999,
+          47.65058757118734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mid-November",
+        "id": 20,
+        "title": "Vancouver, Canada",
+        "text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.20068359374999,
+          49.33944093715546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Late November",
+        "id": 21,
+        "title": "Las Vegas, NV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.13671875,
+          36.19109202182454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Late November",
+        "id": 22,
+        "title": "New Mexico?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.171875,
+          34.30714385628804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "",
+        "Date": "Early December",
+        "id": 23,
+        "title": "Austin, TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734375,
+          30.29701788337205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Early December",
+        "id": 24,
+        "title": "New Orleans, LA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1318359375,
+          29.99300228455108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mid-December",
+        "id": 25,
+        "title": "Nashville, TN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.77001953125,
+          36.19109202182454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mid-December",
+        "id": 26,
+        "title": "Washington, DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05810546875,
+          38.89103282648849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mid-December",
+        "id": 27,
+        "title": "New York, NY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0478515625,
+          40.74725696280421
         ]
       }
     }
