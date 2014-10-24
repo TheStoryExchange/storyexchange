@@ -282,8 +282,8 @@
         "title": "NorCal",
         "text": "California might be the best state",
         "photo": "",
-        "status": "",
-        "Date": "October 9 - "
+        "status": "visited",
+        "Date": "October 9 - 23"
       },
       "geometry": {
         "type": "Point",
@@ -300,8 +300,8 @@
         "title": "San Francisco, CA",
         "text": "",
         "photo": "",
-        "status": "",
-        "Date": "First week of November"
+        "status": "currently",
+        "Date": "October 23 - November 1"
       },
       "geometry": {
         "type": "Point",
@@ -319,7 +319,7 @@
         "text": "",
         "photo": "",
         "status": "",
-        "Date": "Mid-November",
+        "Date": "Early November",
         "photo 2": ""
       },
       "geometry": {
@@ -333,7 +333,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "Mid-November",
+        "Date": "Early November",
         "id": 19,
         "title": "Seattle, WA"
       },
