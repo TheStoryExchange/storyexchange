@@ -132,24 +132,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 8,
-        "title": "Bloomington, IN",
-        "text": "Muse and Foot Roots",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/541f7932e4b09cb1a8ed70a9/1411348794594/P9081779.JPG?format=750w",
-        "status": "visited",
-        "Date": "September 3 - 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5338134765625,
-          39.16999702413473
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 9,
         "title": "Grinnell, IA",
         "text": "Seeds and grains",
@@ -298,9 +280,9 @@
       "properties": {
         "id": 17,
         "title": "San Francisco, CA",
-        "text": "",
+        "text": "A lot of happy people here...",
         "photo": "",
-        "status": "currently",
+        "status": "visited",
         "Date": "October 23 - November 1"
       },
       "geometry": {
@@ -316,9 +298,9 @@
       "properties": {
         "id": 18,
         "title": "Portland, OR",
-        "text": "",
+        "text": "Autumn, finally",
         "photo": "",
-        "status": "",
+        "status": "visited",
         "Date": "Early November",
         "photo 2": ""
       },
@@ -335,7 +317,9 @@
       "properties": {
         "Date": "Early November",
         "id": 19,
-        "title": "Seattle, WA"
+        "title": "Seattle, WA",
+        "status": "visited",
+        "text": "Olympic National Park is highly recommended"
       },
       "geometry": {
         "type": "Point",
@@ -348,122 +332,16 @@
     {
       "type": "Feature",
       "properties": {
-        "Date": "Mid-November",
         "id": 20,
-        "title": "Vancouver, Canada",
-        "text": ""
+        "title": "Portland, OR",
+        "status": "currently",
+        "text": "Laying low for a little while... "
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.20068359374999,
-          49.33944093715546
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Late November",
-        "id": 21,
-        "title": "Las Vegas, NV"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.13671875,
-          36.19109202182454
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Late November",
-        "id": 22,
-        "title": "New Mexico?"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.171875,
-          34.30714385628804
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "status": "",
-        "Date": "Early December",
-        "id": 23,
-        "title": "Austin, TX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.734375,
-          30.29701788337205
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Early December",
-        "id": 24,
-        "title": "New Orleans, LA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.1318359375,
-          29.99300228455108
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Mid-December",
-        "id": 25,
-        "title": "Nashville, TN"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.77001953125,
-          36.19109202182454
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Mid-December",
-        "id": 26,
-        "title": "Washington, DC"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.05810546875,
-          38.89103282648849
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Mid-December",
-        "id": 27,
-        "title": "New York, NY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0478515625,
-          40.74725696280421
+          -122.16796875,
+          45.62940492064501
         ]
       }
     }
