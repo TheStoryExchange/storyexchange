@@ -23,7 +23,7 @@
       "type": "Feature",
       "properties": {
         "id": 2,
-        "title": "Pownal, ME",
+        "title": "Portland, ME",
         "text": "Sleeping Porch",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/5407969ce4b020fb2b13ced2/1409783472379/1409781417.408398.IMG_3959.JPG?format=750w",
         "status": "visited",
@@ -132,74 +132,84 @@
     {
       "type": "Feature",
       "properties": {
+        "id": 8,
+        "title": "Bloomington, IN",
+        "text": "Kristen B.!",
+        "photo": "",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.572265625,
+          39.16414104768742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": 9,
         "title": "Grinnell, IA",
         "text": "Seeds and grains",
-        "status": "visited",
-        "photo 2": "",
-        "Date": "September 9 - 10",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/54298478e4b0027ed7daa72a/1412007036567/unna12med.jpg?format=750w"
+        "photo": "",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.72186279296875,
-          41.74672584176937
+          -92.72666931152344,
+          41.74365194975239
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "text": "Briz & Lady",
         "id": 10,
         "title": "Twin Cities, MN",
-        "status": "visited",
-        "text": "Briz and Lady",
-        "Date": "September 10 - 16",
-        "photo 2": "",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ab9be4b048c8309e6519/1413589916086/Minneapolis.jpg?format=500w"
+        "photo": "",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.0926513671875,
-          44.95410867661361
+          -93.27392578125,
+          45.01141864227728
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "text": "Left promptly after being cursed out by some terrible bikers",
         "id": 11,
-        "title": "Denver, CO",
-        "status": "visited",
-        "text": "Red Rockets",
-        "Date": "September 17 - 23",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ad45e4b048c8309e67fd/1413590361472/Denver.JPG?format=750w"
+        "title": "Omaha, NE",
+        "photo": "",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.98432159423828,
-          39.74045836300404
+          -95.94497680664061,
+          41.261807650073955
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "title": "Denver, CO",
         "id": 12,
-        "title": "Badlands, SD",
-        "status": "visited",
-        "text": "Lunar prairie",
-        "Date": "September 23 - 27",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ab2de4b06e8b47dbca91/1413589819011/photo%20(1).PNG?format=500w"
+        "text": "Red Rockets",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.56973266601562,
-          43.69667260550321
+          -104.98672485351562,
+          39.74521015328692
         ]
       }
     },
@@ -207,17 +217,16 @@
       "type": "Feature",
       "properties": {
         "id": 13,
-        "title": "Black Hills, SD",
-        "status": "visited",
-        "text": "Camping on broken treaties",
-        "Date": "September 27 - 28",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441aba0e4b048c8309e6529/1413589920797/Black%20Hills.jpg?format=750w"
+        "title": "Badlands, SD",
+        "text": "Lunar landscape",
+        "photo": "",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.42803955078125,
-          43.90778718292443
+          -103.02978515625,
+          44.040218713142146
         ]
       }
     },
@@ -225,123 +234,33 @@
       "type": "Feature",
       "properties": {
         "id": 14,
-        "title": "Salt Lake City, UT",
-        "text": "Zion Co-operative Mercantile Institution",
-        "Date": "September 29 - October 5",
-        "photo": "https://mail.google.com/mail/u/1/?ui=2&ik=6e732595b0&view=fimg&th=1492073022e3c3ec&attid=0.1.1&disp=emb&attbid=ANGjdJ8dgKmBEj7mzugHgZoW71pyFAGez2hroRKxnCpmNrT1vs_2QnEjwYXXkyk45cwzwT46XRpWwRe3XBbR8OP4wYKC90ggyIzCC_ZgRpFwOX_w_pkBhob4KhVFv5M&sz=-w1600-h1000&ats=1413588655883&rm=1492073022e3c3ec&zw&atsh=1",
+        "title": "Black Hills, SD",
+        "text": "Camping on broken treaties",
+        "photo": "",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.90811157226562,
-          40.772221877329024
+          -103.61755371093749,
+          44.15068115978091
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "text": "Zion Co-Operative Mercantile Exchange",
         "id": 15,
-        "title": "Yellowstone",
-        "Date": "October 6 - 9",
-        "text": "Characteristics of grizzly and black bears",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/5441aa03e4b02f59465cd485/5441ae2be4b0e6f12d4b9b81/1413590579805/Yellowstone.JPG?format=500w",
+        "title": "Salt Lake City, UT",
+        "photo": "",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.3631591796875,
-          44.49258696288604
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 16,
-        "title": "NorCal",
-        "text": "California might be the best state",
-        "photo": "",
-        "status": "visited",
-        "Date": "October 9 - 23"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.45336914062499,
-          39.457402514270804
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 17,
-        "title": "San Francisco, CA",
-        "text": "A lot of happy people here...",
-        "photo": "",
-        "status": "visited",
-        "Date": "October 23 - November 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4755859375,
-          37.85750715625203
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 18,
-        "title": "Portland, OR",
-        "text": "Autumn, finally",
-        "photo": "",
-        "status": "visited",
-        "Date": "Early November",
-        "photo 2": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.73925781250001,
-          45.62940492064501
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Date": "Early November",
-        "id": 19,
-        "title": "Seattle, WA",
-        "status": "visited",
-        "text": "Olympic National Park is highly recommended"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.23388671874999,
-          47.65058757118734
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 20,
-        "title": "Portland, OR",
-        "status": "currently",
-        "text": "Laying low for a little while... "
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.16796875,
-          45.62940492064501
+          -111.8408203125,
+          40.863679665481676
         ]
       }
     }
