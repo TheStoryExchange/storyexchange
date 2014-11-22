@@ -263,6 +263,105 @@
           40.863679665481676
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "title": "Yellowstone",
+        "text": "Overdue for an eruption",
+        "photo": "",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.55816650390625,
+          44.63739123445585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "California might be the best state",
+        "id": 17,
+        "title": "NorCal",
+        "photo": "",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1455078125,
+          40.88029480552824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "title": "San Francisco, CA",
+        "text": "A lot of happy people",
+        "photo": "",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3876953125,
+          37.84015683604136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "title": "Portland, OR",
+        "text": "Autumn, finally",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6953125,
+          45.583289756006316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "title": "Seattle, WA",
+        "text": "Olympians",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25585937500001,
+          47.635783590864854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "title": "Portland, OR",
+        "text": "Laying low for a while...",
+        "status": "currently"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40966796874999,
+          45.5679096098613
+        ]
+      }
     }
   ]
 }
