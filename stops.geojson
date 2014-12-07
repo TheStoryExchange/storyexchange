@@ -8,8 +8,7 @@
         "title": "Vinalhaven, ME",
         "text": "Rockaway",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/53ff6fe2e4b0af9b1b67f5fe/1409249282408/14717352534_b985558daa_o.jpg?format=750w",
-        "status": "visited",
-        "Date": "August 18 - 26"
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -26,9 +25,7 @@
         "title": "Portland, ME",
         "text": "Sleeping Porch",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/5407969ce4b020fb2b13ced2/1409783472379/1409781417.408398.IMG_3959.JPG?format=750w",
-        "status": "visited",
-        "Date": "August 26 - 27",
-        "photo 2": ""
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -45,9 +42,7 @@
         "title": "Lexington, MA",
         "text": "Moon Hill",
         "status": "visited",
-        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w",
-        "Date": "August 27",
-        "photo 2": ""
+        "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/54079696e4b020fb2b13cec2/1409783458876/1409781416.433156.IMG_4003.JPG?format=750w"
       },
       "geometry": {
         "type": "Point",
@@ -64,8 +59,7 @@
         "title": "Fishkill, NY",
         "text": "Fishkill Correctional Center",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6e43e4b0ea465888d2f7/1411083868097/1411080953.317477.IMG_4038.JPG?format=750w",
-        "status": "visited",
-        "Date": "August 27"
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -82,8 +76,7 @@
         "title": "Clarks Summit, PA",
         "text": "Regrouping",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541b6a98e4b09194f763ca9e/1411082919204/photo%202%281%29.JPG?format=750w",
-        "status": "visited",
-        "Date": "August 27 - 30"
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -100,8 +93,7 @@
         "title": "Detroit, MI",
         "text": "Teach/Trade with Sean",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/540795d5e4b085cd07444b53/541eeb32e4b0bb0e99183f6e/1411312441707/1411137220.702474.IMG_4369.JPG?format=500w",
-        "status": "visited",
-        "Date": "August 31 - September 3"
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -118,8 +110,7 @@
         "title": "Pontiac, MI",
         "text": "Family roots",
         "photo": "https://static.squarespace.com/static/53aeb0e1e4b0902177927b82/53f95d33e4b06aa2bfc4eb51/54205e72e4b0381477a36bca/1411407488389/photo%202%281%29.JPG?format=500w",
-        "status": "visited",
-        "Date": "September 3 - 9"
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
@@ -250,17 +241,16 @@
     {
       "type": "Feature",
       "properties": {
-        "text": "Zion Co-Operative Mercantile Exchange",
         "id": 15,
-        "title": "Salt Lake City, UT",
-        "photo": "",
+        "title": "Billings, MT",
+        "text": "Two exhausted people in what seemed like exhausted place",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.8408203125,
-          40.863679665481676
+          -108.47900390625,
+          45.81348649679971
         ]
       }
     },
@@ -268,33 +258,32 @@
       "type": "Feature",
       "properties": {
         "id": 16,
-        "title": "Yellowstone",
-        "text": "Overdue for an eruption",
+        "title": "Salt Lake City, UT",
+        "text": "Zion Co-Operative Mercantile Exchange",
         "photo": "",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.55816650390625,
-          44.63739123445585
+          -111.895751953125,
+          40.78054143186031
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "text": "California might be the best state",
         "id": 17,
-        "title": "NorCal",
-        "photo": "",
+        "title": "Grand Tetons National Park",
+        "text": "Climbing real and imaginary peaks",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.1455078125,
-          40.88029480552824
+          -110.5938720703125,
+          43.79092385423621
         ]
       }
     },
@@ -302,16 +291,15 @@
       "type": "Feature",
       "properties": {
         "id": 18,
-        "title": "San Francisco, CA",
-        "text": "A lot of happy people",
-        "photo": "",
+        "title": "Yellowstone National Park",
+        "text": "Overdue for an eruption",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3876953125,
-          37.84015683604136
+          -110.50048828124999,
+          44.63739123445585
         ]
       }
     },
@@ -319,15 +307,16 @@
       "type": "Feature",
       "properties": {
         "id": 19,
-        "title": "Portland, OR",
-        "text": "Autumn, finally",
+        "title": "Reno, NV",
+        "text": "Desert cities before the Sierras",
+        "photo": "",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.6953125,
-          45.583289756006316
+          -119.81689453125,
+          39.52099229357195
         ]
       }
     },
@@ -335,15 +324,16 @@
       "type": "Feature",
       "properties": {
         "id": 20,
-        "title": "Seattle, WA",
-        "text": "Olympians",
+        "title": "Sacramento, CA",
+        "text": "California might be the best state",
+        "photo": "",
         "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.25585937500001,
-          47.635783590864854
+          -121.5087890625,
+          38.57393751557591
         ]
       }
     },
@@ -351,15 +341,80 @@
       "type": "Feature",
       "properties": {
         "id": 21,
-        "title": "Portland, OR",
-        "text": "Laying low for a while...",
-        "status": "currently"
+        "title": "Northern California",
+        "text": "Above the clouds",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.12353515624999,
+          40.763901280945866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "title": "San Francisco, CA",
+        "text": "A lot of happy people",
+        "status": "visited"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -122.40966796874999,
-          45.5679096098613
+          37.78808138412046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "title": "Portland, OR",
+        "text": "Autumn",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67333984374999,
+          45.537136680398596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "title": "Seattle, WA",
+        "text": "Sleeping among Olympians",
+        "status": "visited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32177734375,
+          47.62097541515849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "title": "Portland, OR",
+        "text": "Laying low for a while",
+        "photo": "",
+        "status": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49755859375,
+          45.537136680398596
         ]
       }
     }
